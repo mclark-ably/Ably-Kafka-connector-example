@@ -86,7 +86,7 @@ services:
       - /config/docker-compose-connector.properties
     volumes:
       - ./config:/config
-      - ./ably-kafka-connect-ably-4.1.0:/plugins/kafka-connect-ably
+      - ./ably-kafka-connect-ably-4.1.1:/plugins/kafka-connect-ably
     ports:
       - 5005:5005
       - 8083:8083
